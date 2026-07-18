@@ -1,0 +1,17 @@
+[workspace]
+members = [
+    "core",
+    "server",
+    "client",
+]
+resolver = "2"
+
+[workspace.dependencies]
+anyhow = "1"
+tokio = { version = "1", features = ["full"] }
+# rust-toolchain.toml
+ ratatui = "0.30.2"
+crossterm = "0.29.0"
+[toolchain]
+channel = "nightly-2026-07-18"
+components = ["rustfmt", "clippy", "rust-src"]

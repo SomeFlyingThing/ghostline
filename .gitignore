@@ -1,0 +1,7 @@
+/target/
+
+# cargo-fuzz generated data
+client/fuzz/target/
+client/fuzz/corpus/
+client/fuzz/artifacts/
+client/fuzz/coverage/
